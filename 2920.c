@@ -8,7 +8,7 @@ int main() {
 
 	for (int i = 0;i < 8;i++) {
 		scanf("%1d", &numArr[i]);
-	}//ÇÑ¹ø¿¡ ÀÔ·Â¹Þ¾Æ¼­ ¹è¿­¿¡ ÇÑ°³¾¿ ÀúÀå ¿Ï·á!0!
+	}//í•œë²ˆì— ìž…ë ¥ë°›ì•„ì„œ ë°°ì—´ì— í•œê°œì”© ì €ìž¥ ì™„ë£Œ!0!
 
 	int a = 0;
 	int d = 0;
@@ -18,14 +18,14 @@ int main() {
 		if ((position + 1) != numArr[position]) {
 			a++;
 			break;
-			//ascendingÀÌ ¾Æ´Ï¸é a°¡ 1
+		
 		}
 	}
 	for (position;position < 8;position++){
 		if ((position+numArr[position])!=8) {
 			d++;
 			break;
-				//descendingÀÌ ¾Æ´Ï¸é b°¡ 1
+				
 		}
 	}
 
