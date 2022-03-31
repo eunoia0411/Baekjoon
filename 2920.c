@@ -18,14 +18,12 @@ int main() {
 		if ((position + 1) != numArr[position]) {
 			a++;
 			break;
-		
 		}
 	}
 	for (position;position < 8;position++){
 		if ((position+numArr[position])!=8) {
 			d++;
-			break;
-				
+			break;	
 		}
 	}
 
